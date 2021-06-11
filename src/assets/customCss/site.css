@@ -1,0 +1,235 @@
+html {
+  font-family: 'Lucida Sans';
+}
+
+.container {
+  max-width: 1250px;
+}
+
+.footer {
+  position: inherit;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+body {
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: 'Lucida Sans','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: url('/assets/images/background.jpg') no-repeat !important;
+  background-size: contain !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  background-size: cover !important;
+  -o-background-size: cover !important;
+  min-height:100% !important;
+}
+
+.mat-drawer-content {
+  overflow: inherit !important;
+}
+
+.row {
+  height: inherit;
+}
+.col {
+  min-width:75% !important;
+  flex-grow: inherit !important;
+}
+
+.row-m-t{
+  margin-top : 20px
+}
+
+.jumbotron {
+  background: rgba(232, 232, 232, .4) !important;
+}
+
+
+.text-menu {
+  color: #1d0a87 !important
+}
+
+a.text-menu:focus, a.text-menu:hover {
+  color: #e3087e !important
+}
+
+.h5, h5 {
+  color: #1160a6 !important;
+}
+.login-container {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.login-form-1 {
+  padding: 5%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+  .login-form-1 h3 {
+      text-align: center;
+      color: #333;
+  }
+
+.login-form-2 {
+  padding: 5%;
+  background: #1160a6;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+  .login-form-2 h3 {
+      text-align: center;
+      color: #fff;
+  }
+
+.login-container form {
+  padding: 10%;
+}
+
+.loginlabel {
+  font-weight: 600;
+}
+
+.login-form-2 .loginlabel {
+  color: #FFF;
+}
+
+.LoginbtnSubmit {
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  border: none;
+  cursor: pointer;
+}
+
+.login-form-1 .LoginbtnSubmit {
+  font-weight: 600;
+  color: #fff;
+  background-color: #0062cc;
+}
+
+.login-form-2 .LoginbtnSubmit {
+  font-weight: 600;
+  color: #0062cc;
+  background-color: #fff;
+}
+
+.login-form-2 .ForgetPwd {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.login-form-1 .ForgetPwd {
+  color: #0062cc;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn {
+  padding: .375rem .75rem;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1160a6 !important;
+  border:none !important;
+}
+.btn-primary:hover {
+  color: #fff !important;
+  background-color:#e3087e !important ;
+  border:none;
+}
+
+.btn-dropdown {
+  color: #fff !important;
+  background-color: #1160a6 !important;
+  border:none;
+}
+
+.btn-dropdown:hover {
+  color: #fff !important;
+  background-color: #e3087e !important;
+  border-color:none !important;
+}
+
+.mat-form-field-flex {
+  width: 23em !important;
+}
+
+.card {
+  width: -webkit-fill-available;
+}
+
+.mt-8 {
+  margin-top: 8em;
+}
+
+.mt-4x {
+  margin-top: 4.5em;
+}
+
+@media (min-width: 48em){
+  .nav-masthead {
+    float: right;
+}
+}
+/*Side nav */
+.example-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.example-is-mobile .example-toolbar {
+  position: fixed;
+  /* Make sure the toolbar will stay on top of the content as it scrolls past. */
+  z-index: 2;
+}
+
+h1.example-app-name {
+  margin-left: 8px;
+}
+
+.example-sidenav-container {
+  /* When the sidenav is not fixed, stretch the sidenav container to fill the available space. This
+     causes `<mat-sidenav-content>` to act as our scrolling element for desktop layouts. */
+  flex: 1;
+}
+
+.example-is-mobile .example-sidenav-container {
+  /* When the sidenav is fixed, don't constrain the height of the sidenav container. This allows the
+     `<body>` to be our scrolling element for mobile layouts. */
+  flex: 1 0 auto;
+}
+
+
+.mat-drawer-container {
+  background-color:transparent !important;
+  overflow-y: auto !important;
+}
+.mat-drawer {
+  height:fit-content !important;
+}
+
+.icon[_ngcontent-qmd-c11] {
+  position: absolute;
+  top: 19px;
+  left: 10px;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-size: 32px 32px;
+}
+
+
+
